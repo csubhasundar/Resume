@@ -1,0 +1,122 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #007BFF;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #007BFF;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Project styling */
+#projects ul {
+    list-style: none;
+}
+
+#projects li {
+    margin-bottom: 20px;
+}
+
+#projects h3 {
+    color: #007BFF;
+}
+
+#projects p {
+    margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-right: 20px;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 600px) {
+    header img {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+}
